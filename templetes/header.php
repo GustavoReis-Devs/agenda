@@ -1,5 +1,6 @@
+<!--O código php que fica aqui está no arquivo index.php, não foi incluido aqui porque atrapalha a execução desta aplicação utilizando o servidor da replit-->
 <html lang="pt-br">
-  <head>
+  <head>      
     <meta charset="utf-8">
     <meta name="viewport" content="width-device-width, initial-scale=1.0">
     <title>Minha Agenda</title>
@@ -24,3 +25,6 @@
         </div>
       </nav>
     </header>
+
+
+
