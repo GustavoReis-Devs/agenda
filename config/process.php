@@ -2,8 +2,7 @@
 
   session_start();
 
-  include_once("connecion.php");
-  include_once("url.php");
+  include_once("connecion.php");  
 
   $contacts = []
 

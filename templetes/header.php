@@ -1,5 +1,8 @@
 <!--O código php que fica aqui está no arquivo index.php, não foi incluido aqui porque atrapalha a execução desta aplicação utilizando o servidor da replit-->
-<html lang="pt-br">
+  <?php     
+    include_once("config/connection.php");
+  ?>
+
   <head>      
     <meta charset="utf-8">
     <meta name="viewport" content="width-device-width, initial-scale=1.0">
@@ -11,7 +14,7 @@
     
     <!--CSS-->
     <link rel="stylesheet" href="<?= $BASE_URL ?>css/styles.css">
-    
+        
   </head>
   <body>
     <header>
@@ -25,6 +28,5 @@
         </div>
       </nav>
     </header>
-
 
 

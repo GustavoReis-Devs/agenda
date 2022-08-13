@@ -3,15 +3,15 @@
 ?> 
 
   <div class="container">
-   <!--<?php if(isset($printMsg) && $printMsg != ''): ?>
+   <?php if(isset($printMsg) && $printMsg != ''): ?>
       <p id="msg"><?= $printMsg ?></p>
     <?php endif; ?>
     <h1 id="main-title">Minha Agenda</h1>
-    <?php if(count($contacts) > 0): ?>-->
+    <?php if($contacts > 0): ?>
       <table class="table" id="contacts-table">
         <thead>
           <tr scope="col">#</tr>
-          <tr scope="col">Name</tr>
+          <tr scope="col">Nome</tr>
           <tr scope="col">Telefone</tr>
           <tr scope="col"></tr>
         </thead>
